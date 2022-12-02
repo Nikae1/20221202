@@ -1,0 +1,21 @@
+/* JDBC ResultSet Important Method */
+ - .isFirst()
+ - .isLast()
+ - .isBeforeFirst()
+ - .isAfterLast()
+ *** 아래의 메서드 운용시 필수 셋팅 ***********
+ * prepareStatement(query, resultSet.Type, resultSet.Concurrency)
+ * ResultSet.TYPE_SCROLL_INSENSITIVE
+ * ResultSet.CONCUR_UPDATABLE
+ *
+ * Default Value
+ *  - ResultSet.TYPE_FORWARD_ONLY
+ *  - ResultSet.CONCUR_READ_ONLY 
+ **************************************
+ - .first()
+ - .last()
+ - .next()
+ - .previous()
+ - .getRow()
+ - .beforeFirst()
+ - .afterLast()
